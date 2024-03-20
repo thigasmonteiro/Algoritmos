@@ -1,6 +1,6 @@
-cigarros_dias = int(input("Insira a quantidade de cigarros carburados por dia:"))
-anos_fumados = int(input("Quantos anos cê fuma? :"))
+cigarrosDia = int(input("Insira a quantidade de cigarros que você fuma por dia:"))
+anosFumado = int(input("Insira a quantidade de anos que voce fuma :"))
 
-dias_fumados = (((24) * 60) - (cigarros_dias) )
-
-cigarro = ()
+reducao_em_minutos = (anosFumado * 365 * cigarrosDia * 10)
+reducao_em_dias = ((reducao_em_minutos1) / (24*60))
+print(f"Você perdeu", reducao_em_dias, "de vida")
